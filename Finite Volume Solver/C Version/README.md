@@ -1,5 +1,5 @@
-# CFDLab: Group D Final Project
-TUM Informatics: CFD
+# Finite Volume Solver
+
 
 This repository contains the Finite Volume Method Solver applied to Computational Fluid Dynamics.
 
