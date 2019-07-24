@@ -1,0 +1,1171 @@
+{
+  "Finalized": "2019-06-11T04:03:25.611",
+  "Initialized": "2019-06-11T04:03:13.888",
+  "Name": "",
+  "Ranks": [
+    {
+      "Finalized": "2019-06-11T04:03:25.611",
+      "Initialized": "2019-06-11T04:03:13.888",
+      "StateChanges": [
+        {
+          "Name": "_GLOBAL",
+          "State": 1,
+          "Timestamp": 0
+        },
+        {
+          "Name": "_GLOBAL",
+          "State": 0,
+          "Timestamp": 11723
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 7086
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 7086
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 7180
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 7181
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 7280
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 7294
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 7387
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 7387
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 7479
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 7479
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 7572
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 7583
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 7684
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 7684
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 7776
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 7776
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 7868
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 7879
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 7977
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 7977
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 8069
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 8069
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 8162
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 8175
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 8274
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 8274
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 8366
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 8367
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 8459
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 8471
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 8563
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 8564
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 8664
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 8664
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 8757
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 8768
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 8860
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 8860
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 8953
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 8953
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 9051
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 9064
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 9158
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 9158
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 9251
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 9251
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 9343
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 9355
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 9454
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 9455
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 9548
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 9548
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 9642
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 9654
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 9749
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 9749
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 9849
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 9850
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 9943
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 9961
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 10053
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 10053
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 10146
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 10146
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 10244
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 10253
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 10345
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 10345
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 10437
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 10437
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 10530
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 10539
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 10640
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 10640
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 10732
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 10732
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 10826
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 10836
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 10929
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 10929
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 11029
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 11029
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 11123
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 11133
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 11225
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 11225
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 11319
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 11319
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 11419
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 11429
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 11531
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 11531
+        },
+        {
+          "Name": "advance",
+          "State": 1,
+          "Timestamp": 11624
+        },
+        {
+          "Name": "advance",
+          "State": 0,
+          "Timestamp": 11624
+        },
+        {
+          "Name": "configure",
+          "State": 1,
+          "Timestamp": -198
+        },
+        {
+          "Name": "configure",
+          "State": 0,
+          "Timestamp": 0
+        },
+        {
+          "Name": "initialize",
+          "State": 1,
+          "Timestamp": 9
+        },
+        {
+          "Name": "initialize",
+          "State": 0,
+          "Timestamp": 6978
+        },
+        {
+          "Name": "initialize/m2n.requestMasterConnection",
+          "State": 1,
+          "Timestamp": 9
+        },
+        {
+          "Name": "initialize/m2n.requestMasterConnection",
+          "State": 0,
+          "Timestamp": 6977
+        },
+        {
+          "Name": "initialize/m2n.requestSlavesConnection",
+          "State": 1,
+          "Timestamp": 6978
+        },
+        {
+          "Name": "initialize/m2n.requestSlavesConnection",
+          "State": 0,
+          "Timestamp": 6978
+        },
+        {
+          "Name": "initialize/partition.feedbackMesh.F1-to-Solid-Mesh",
+          "State": 1,
+          "Timestamp": 6978
+        },
+        {
+          "Name": "initialize/partition.feedbackMesh.F1-to-Solid-Mesh",
+          "State": 0,
+          "Timestamp": 6978
+        },
+        {
+          "Name": "initialize/partition.gatherMesh.F1-to-Solid-Mesh",
+          "State": 1,
+          "Timestamp": 6977
+        },
+        {
+          "Name": "initialize/partition.gatherMesh.F1-to-Solid-Mesh",
+          "State": 0,
+          "Timestamp": 6978
+        },
+        {
+          "Name": "initialize/partition.sendGlobalMesh.F1-to-Solid-Mesh",
+          "State": 1,
+          "Timestamp": 6978
+        },
+        {
+          "Name": "initialize/partition.sendGlobalMesh.F1-to-Solid-Mesh",
+          "State": 0,
+          "Timestamp": 6978
+        },
+        {
+          "Name": "initializeData",
+          "State": 1,
+          "Timestamp": 6978
+        },
+        {
+          "Name": "initializeData",
+          "State": 0,
+          "Timestamp": 6982
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 7086
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 7180
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 7181
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 7280
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 7294
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 7387
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 7387
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 7479
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 7479
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 7572
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 7583
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 7684
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 7684
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 7776
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 7776
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 7868
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 7879
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 7977
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 7977
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 8069
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 8069
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 8162
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 8174
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 8274
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 8274
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 8366
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 8367
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 8459
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 8471
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 8563
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 8564
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 8664
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 8664
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 8757
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 8768
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 8860
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 8860
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 8953
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 8953
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 9051
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 9064
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 9158
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 9158
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 9251
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 9251
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 9343
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 9355
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 9454
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 9455
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 9548
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 9548
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 9642
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 9654
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 9749
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 9749
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 9849
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 9850
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 9943
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 9961
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 10053
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 10053
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 10146
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 10146
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 10244
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 10253
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 10345
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 10345
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 10437
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 10437
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 10530
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 10539
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 10640
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 10640
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 10732
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 10732
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 10826
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 10836
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 10929
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 10929
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 11029
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 11029
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 11123
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 11133
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 11225
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 11225
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 11319
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 11319
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 11419
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 11429
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 11531
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 11531
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 11624
+        },
+        {
+          "Name": "solver.advance",
+          "State": 1,
+          "Timestamp": 11624
+        },
+        {
+          "Name": "solver.advance",
+          "State": 0,
+          "Timestamp": 11722
+        },
+        {
+          "Name": "solver.initialize",
+          "State": 1,
+          "Timestamp": 0
+        },
+        {
+          "Name": "solver.initialize",
+          "State": 2,
+          "Timestamp": 9
+        },
+        {
+          "Name": "solver.initialize",
+          "State": 1,
+          "Timestamp": 6978
+        },
+        {
+          "Name": "solver.initialize",
+          "State": 2,
+          "Timestamp": 6978
+        },
+        {
+          "Name": "solver.initialize",
+          "State": 1,
+          "Timestamp": 6982
+        },
+        {
+          "Name": "solver.initialize",
+          "State": 0,
+          "Timestamp": 7086
+        }
+      ],
+      "Timings": {
+        "_GLOBAL": {
+          "Count": 1,
+          "Data": {},
+          "Max": 11723,
+          "Min": 11723,
+          "TimeRatio": 1.0,
+          "Total": 11723
+        },
+        "advance": {
+          "Count": 47,
+          "Data": {},
+          "Max": 17,
+          "Min": 0,
+          "TimeRatio": 0.014927919474537234,
+          "Total": 175
+        },
+        "configure": {
+          "Count": 1,
+          "Data": {},
+          "Max": 198,
+          "Min": 198,
+          "TimeRatio": 0.016889874605476415,
+          "Total": 198
+        },
+        "initialize": {
+          "Count": 1,
+          "Data": {},
+          "Max": 6968,
+          "Min": 6968,
+          "TimeRatio": 0.594387102277574,
+          "Total": 6968
+        },
+        "initialize/m2n.requestMasterConnection": {
+          "Count": 1,
+          "Data": {},
+          "Max": 6967,
+          "Min": 6967,
+          "TimeRatio": 0.5943017998805766,
+          "Total": 6967
+        },
+        "initialize/m2n.requestSlavesConnection": {
+          "Count": 1,
+          "Data": {},
+          "Max": 0,
+          "Min": 0,
+          "TimeRatio": 0.0,
+          "Total": 0
+        },
+        "initialize/partition.feedbackMesh.F1-to-Solid-Mesh": {
+          "Count": 1,
+          "Data": {},
+          "Max": 0,
+          "Min": 0,
+          "TimeRatio": 0.0,
+          "Total": 0
+        },
+        "initialize/partition.gatherMesh.F1-to-Solid-Mesh": {
+          "Count": 1,
+          "Data": {},
+          "Max": 0,
+          "Min": 0,
+          "TimeRatio": 0.0,
+          "Total": 0
+        },
+        "initialize/partition.sendGlobalMesh.F1-to-Solid-Mesh": {
+          "Count": 1,
+          "Data": {},
+          "Max": 0,
+          "Min": 0,
+          "TimeRatio": 0.0,
+          "Total": 0
+        },
+        "initializeData": {
+          "Count": 1,
+          "Data": {},
+          "Max": 3,
+          "Min": 3,
+          "TimeRatio": 0.0002559071909920669,
+          "Total": 3
+        },
+        "solver.advance": {
+          "Count": 47,
+          "Data": {},
+          "Max": 101,
+          "Min": 91,
+          "TimeRatio": 0.38036338821120874,
+          "Total": 4459
+        },
+        "solver.initialize": {
+          "Count": 1,
+          "Data": {},
+          "Max": 114,
+          "Min": 114,
+          "TimeRatio": 0.009724473257698542,
+          "Total": 114
+        }
+      }
+    }
+  ]
+}

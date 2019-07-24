@@ -1,0 +1,12 @@
+participant: Solid
+
+precice-config-file: precice-configs/precice_config_plate_explicit.xml
+
+interfaces:
+- mesh: Solid-Mesh
+  patches:
+  - interface
+  write-data: Heat-Flux
+  read-data: Temperature
+
+CHTenabled: true
