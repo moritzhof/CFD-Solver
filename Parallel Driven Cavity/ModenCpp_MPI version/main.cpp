@@ -1,8 +1,9 @@
-#include <boost/mpi/environment.hpp>
-#include <boost/mpi/communicator.hpp>
-#include <boost/mpi.hpp>
+// #include <boost/mpi/environment.hpp>
+// #include <boost/mpi/communicator.hpp>
+// #include <boost/mpi.hpp>
 #include <iostream>
-
+#include <mpi.h>
+#include <vector>
 
     typedef std::vector<double> Vector;
     typedef std::vector<Vector> Matrix;
@@ -73,12 +74,17 @@ int main(int argc, char* argv[]){
     int iproc = 2;
     int jproc = 1;
     int rank_b,rank_l,rank_r,rank_t;
+    int dy, dx;
 
-    boost::mpi::environment env(argc, argv);
-    boost::mpi::communicator world;
+    // boost::mpi::environment env(argc, argv);
+    // boost::mpi::communicator world;
+    //
+    // int myrank = world.rank();
+    // int nproc  = world.size();
 
-    int myrank = world.rank();
-    int nproc  = world.size();
+    MPI::Init(argc, argv);
+    int myrank = MPI::COMM_WORLD.Get_rank();
+    int nproc  = MPI::COMM_WORLD.Get_size();
 
     if(myrank == 0){
         std::cout<< " Welcome to Computational Fluid Dynamics Parallelization Solver "<<std::endl;
@@ -86,8 +92,51 @@ int main(int argc, char* argv[]){
         std::cout<< " Total Processes: " << nproc << std::endl;
     }
 
-    broadcast(world, Re, 0);
+    MPI::COMM_WORLD.Bcast( &Re      , 1, MPI::DOUBLE, 0);
+    MPI::COMM_WORLD.Bcast( &UI      , 1, MPI::DOUBLE, 0);
+    MPI::COMM_WORLD.Bcast( &VI      , 1, MPI::DOUBLE, 0);
+    MPI::COMM_WORLD.Bcast( &PI      , 1, MPI::DOUBLE, 0);
+    MPI::COMM_WORLD.Bcast( &GX      , 1, MPI::DOUBLE, 0);
+    MPI::COMM_WORLD.Bcast( &GY      , 1, MPI::DOUBLE, 0);
+    MPI::COMM_WORLD.Bcast( &t_end   , 1, MPI::DOUBLE, 0);
+    MPI::COMM_WORLD.Bcast( &xlength , 1, MPI::DOUBLE, 0);
+    MPI::COMM_WORLD.Bcast( &ylength , 1, MPI::DOUBLE, 0);
+    MPI::COMM_WORLD.Bcast( &dt      , 1, MPI::DOUBLE, 0);
+    MPI::COMM_WORLD.Bcast( &dx      , 1, MPI::DOUBLE, 0);
+    MPI::COMM_WORLD.Bcast( &dy      , 1, MPI::DOUBLE, 0);
+    MPI::COMM_WORLD.Bcast( &imax    , 1, MPI::DOUBLE, 0);
+    MPI::COMM_WORLD.Bcast( &jmax    , 1, MPI::DOUBLE, 0);
+    MPI::COMM_WORLD.Bcast( &alpha   , 1, MPI::DOUBLE, 0);
+    MPI::COMM_WORLD.Bcast( &omg     , 1, MPI::DOUBLE, 0);
+    MPI::COMM_WORLD.Bcast( &tau     , 1, MPI::DOUBLE, 0);
+    MPI::COMM_WORLD.Bcast( &itermax , 1, MPI::DOUBLE, 0);
+    MPI::COMM_WORLD.Bcast( &eps     , 1, MPI::DOUBLE, 0);
+    MPI::COMM_WORLD.Bcast( &dt_value, 1, MPI::DOUBLE, 0);
+    MPI::COMM_WORLD.Bcast( &jproc   , 1, MPI::DOUBLE, 0);
+    MPI::COMM_WORLD.Bcast( &iproc   , 1, MPI::DOUBLE, 0);
 
+    // broadcast(world, Re, 0);
+    // broadcast(world, UI, 0);
+    // broadcast(world, VI, 0);
+    // broadcast(world, PI, 0);
+    // broadcast(world, GX, 0);
+    // broadcast(world, GY, 0);
+    // broadcast(world, t_end, 0);
+    // broadcast(world, xlength, 0);
+    // broadcast(world, ylength, 0);
+    // broadcast(world, dt, 0);
+    // broadcast(world, dx, 0);
+    // broadcast(world, dy, 0);
+    // broadcast(world, imax, 0);
+    // broadcast(world, jmax, 0);
+    // broadcast(world, alpha, 0);
+    // broadcast(world, omg, 0);
+    // broadcast(world, tau, 0);
+    // broadcast(world, itermax, 0);
+    // broadcast(world, eps, 0);
+    // broadcast(world, dt_value, 0);
+    // broadcast(world, iproc, 0);
+    // broadcast(world, jproc, 0);
 
     MPI::Finalize();
     return 0;
