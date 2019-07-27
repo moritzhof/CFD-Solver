@@ -12,7 +12,6 @@
 int main(int argn, char** args){
 
 			printf("Welcome to CFD Simulator for Arbitray Geometries:");
-			printf("Worksheet 2, Group D: Moritz (Travis), Moe, Nia \n");
 			printf("Please make a selection the scenerio you would like to simulate by a number between 1-7 \n");
 			printf("P1. Karman Vortex Street \n");
 			printf("P2. Flow over a Step \n");

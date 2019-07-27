@@ -74,7 +74,7 @@ int main(int argc, char* argv[]){
     int jproc = 1;
     int rank_b,rank_l,rank_r,rank_t;
 
-    boost::mpi::environment env;
+    boost::mpi::environment env(argc, argv);
     boost::mpi::communicator world;
 
     int myrank = world.rank();
@@ -86,7 +86,7 @@ int main(int argc, char* argv[]){
         std::cout<< " Total Processes: " << nproc << std::endl;
     }
 
-    boost::mpi::broadcast(world, Re, 0);
+    broadcast(world, Re, 0);
 
 
     MPI::Finalize();

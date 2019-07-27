@@ -14,8 +14,7 @@
 
 int main(int argc, char const *argv[]){
 
-			printf("Welcome to CFD Simulator with preCICE and openFoam:");
-			printf("Worksheet 3, Group D: Moritz (Travis), Moe, Nia \n");
+			printf("Welcome to CFD Simulator with PreCICE and OpenFoam:");
 			printf("Please make a selection the scenerio you would like to simulate by a number between 1-7 \n");
 			printf("1. Heated Plate: Forced Convection \n");
 			printf("2. Conducting Wall: Natural Convection\n");
@@ -209,7 +208,7 @@ int main(int argc, char const *argv[]){
 					t=t+dt;
 					++n;
 			}
-			
+
 
     }
 		precicec_finalize();

@@ -8,7 +8,7 @@
 
 int main(int argc, char* argv[])
 {
-    const char* filename= "/Users/moritzhof/Documents/TUM/Semester2/ComputationalFluidDynamicsLab/Worksheet 1/cavity100.dat";
+    const char* filename= "cavity100.dat";
     //const char* destination = "/Users/moritzhof/Documents/TUM/Semester 2/ComputationalFluidDynamicsLab/Worksheet 1/results";
 	//initialize variables
 	double t = 0; /*time start*/
@@ -40,7 +40,7 @@ int main(int argc, char* argv[])
 	//going through all time steps
 	while(t < t_end){
 		//adaptive time stepping
-		//calculate_dt(Re, tau, &dt, dx, dy, imax, jmax, U, V);
+		calculate_dt(Re, tau, &dt, dx, dy, imax, jmax, U, V);
 
 		//setting bound.values
 		boundaryvalues(imax, jmax, U, V);
