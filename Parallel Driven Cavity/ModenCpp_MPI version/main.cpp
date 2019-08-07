@@ -1,6 +1,7 @@
 // #include <boost/mpi/environment.hpp>
 // #include <boost/mpi/communicator.hpp>
 // #include <boost/mpi.hpp>
+
 #include <iostream>
 #include <mpi.h>
 #include <vector>
@@ -115,6 +116,14 @@ int main(int argc, char* argv[]){
     MPI::COMM_WORLD.Bcast( &jproc   , 1, MPI::DOUBLE, 0);
     MPI::COMM_WORLD.Bcast( &iproc   , 1, MPI::DOUBLE, 0);
 
+
+    MPI::Finalize();
+    return 0;
+}
+
+
+
+    // boost MPI broadcast:
     // broadcast(world, Re, 0);
     // broadcast(world, UI, 0);
     // broadcast(world, VI, 0);
@@ -137,7 +146,3 @@ int main(int argc, char* argv[]){
     // broadcast(world, dt_value, 0);
     // broadcast(world, iproc, 0);
     // broadcast(world, jproc, 0);
-
-    MPI::Finalize();
-    return 0;
-}
